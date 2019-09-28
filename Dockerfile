@@ -1,6 +1,8 @@
-FROM node:6.0.0
+FROM node:7
 WORKDIR /app
-ADD ./app
+COPY package.json /app
+RUN npm install
+COPY . /app
 RUN npm install
 EXPOSE 3000
-CMD npm start
+CMD npm build
