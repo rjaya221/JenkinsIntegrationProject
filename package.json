@@ -14,7 +14,7 @@
     "fs": "0.0.1-security",
     "nodemon": "^1.18.11",
     "js2xmlparser": "^3.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "request": "^2.88.0",
     "url-parse": "^1.4.3"
   },
